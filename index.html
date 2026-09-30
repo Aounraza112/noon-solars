@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NOON SOLARS | Solar Energy Solutions</title>
+  <meta name="description" content="NOON SOLARS - Reliable solar energy solutions for homes, businesses and industries.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="navbar">
+  <a href="#home" class="logo">
+    <img src="images/logo.jpg" alt="NOON SOLARS Logo" onerror="this.style.display='none'">
+    <span>NOON <b>SOLARS</b></span>
+  </a>
+
+  <button class="menu-btn" aria-label="Open menu">☰</button>
+
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#about">About Us</a>
+    <a href="#services">Services</a>
+    <a href="#projects">Projects</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<main>
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <p class="eyebrow">CLEAN ENERGY • SMART FUTURE</p>
+      <h1>Power Your Future<br><span>With Solar Energy.</span></h1>
+      <p class="hero-text">Reliable and efficient solar solutions designed to help homes and businesses save energy and build a sustainable future.</p>
+      <div class="buttons">
+        <a href="#contact" class="btn primary">Get a Quote</a>
+        <a href="#services" class="btn secondary">Our Services</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="section about">
+    <div class="section-image placeholder">YOUR<br>IMAGE</div>
+    <div class="section-content">
+      <p class="eyebrow">ABOUT NOON SOLARS</p>
+      <h2>Clean energy for a brighter tomorrow.</h2>
+      <p>NOON SOLARS provides practical solar energy solutions for residential, commercial and industrial needs. Our goal is to make clean, dependable energy accessible through quality solar systems and professional installation.</p>
+      <p>We focus on reliable products, careful installation and solutions tailored to each project's requirements.</p>
+    </div>
+  </section>
+
+  <section id="services" class="section light">
+    <div class="center-heading">
+      <p class="eyebrow">WHAT WE DO</p>
+      <h2>Our Services</h2>
+      <p>Complete solar solutions from planning to installation.</p>
+    </div>
+
+    <div class="cards">
+      <article class="card">
+        <div class="icon">☀</div>
+        <h3>Solar System Installation</h3>
+        <p>Professional solar system installation for homes, offices, shops and other properties.</p>
+      </article>
+      <article class="card">
+        <div class="icon">⚡</div>
+        <h3>Commercial Solar Solutions</h3>
+        <p>Energy solutions designed for businesses looking to reduce electricity costs and improve efficiency.</p>
+      </article>
+      <article class="card">
+        <div class="icon">🔧</div>
+        <h3>Maintenance & Support</h3>
+        <p>System inspection, maintenance and support to help keep your solar installation performing reliably.</p>
+      </article>
+    </div>
+  </section>
+
+  <section id="projects" class="section projects">
+    <div class="center-heading">
+      <p class="eyebrow">OUR WORK</p>
+      <h2>Featured Projects</h2>
+      <p>Add your completed solar projects here.</p>
+    </div>
+
+    <div class="project-grid">
+      <div class="project"><div class="placeholder">PROJECT PHOTO 01</div><h3>Residential Solar Project</h3><p>Solar installation</p></div>
+      <div class="project"><div class="placeholder">PROJECT PHOTO 02</div><h3>Commercial Solar Project</h3><p>Commercial installation</p></div>
+      <div class="project"><div class="placeholder">PROJECT PHOTO 03</div><h3>Industrial Solar Project</h3><p>Industrial installation</p></div>
+    </div>
+  </section>
+
+  <section id="gallery" class="section light">
+    <div class="center-heading">
+      <p class="eyebrow">GALLERY</p>
+      <h2>Our Gallery</h2>
+      <p>Replace these placeholders with your own project photos.</p>
+    </div>
+
+    <div class="gallery">
+      <div class="gallery-item placeholder">PHOTO 01</div>
+      <div class="gallery-item placeholder">PHOTO 02</div>
+      <div class="gallery-item placeholder">PHOTO 03</div>
+      <div class="gallery-item placeholder">PHOTO 04</div>
+      <div class="gallery-item placeholder">PHOTO 05</div>
+      <div class="gallery-item placeholder">PHOTO 06</div>
+    </div>
+  </section>
+
+  <section id="contact" class="section contact">
+    <div>
+      <p class="eyebrow">GET IN TOUCH</p>
+      <h2>Let's build your solar future.</h2>
+      <p>Have a solar project in mind? Contact NOON SOLARS for more information or a quotation.</p>
+    </div>
+
+    <div class="contact-box">
+      <div><span>Email</span><a href="mailto:noonsolars@gmail.com">noonsolars@gmail.com</a></div>
+      <div><span>WhatsApp 01</span><a href="https://wa.me/923448401175" target="_blank">0344 8401175</a></div>
+      <div><span>WhatsApp 02</span><a href="https://wa.me/923027862658" target="_blank">0302 7862658</a></div>
+      <div><span>WhatsApp 03</span><a href="https://wa.me/923417862658" target="_blank">0341 7862658</a></div>
+      <a class="btn primary full" href="https://wa.me/923448401175" target="_blank">Chat on WhatsApp</a>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="footer-brand">NOON <b>SOLARS</b></div>
+  <p>© 2026 NOON SOLARS. All Rights Reserved.</p>
+</footer>
+
+<a href="https://wa.me/923448401175" class="whatsapp" target="_blank" aria-label="WhatsApp">☏</a>
+
+<script>
+  const menuBtn = document.querySelector('.menu-btn');
+  const nav = document.querySelector('nav');
+  menuBtn.addEventListener('click', () => nav.classList.toggle('open'));
+  document.querySelectorAll('nav a').forEach(a => a.addEventListener('click', () => nav.classList.remove('open')));
+</script>
+</body>
+</html>
